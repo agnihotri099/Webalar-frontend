@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api/attendance'; // Update URL as per your backend
+const API_BASE_URL = 'https://webalar-backend.onrender.com/api/attendance'; // Update URL as per your backend
 
 export const fetchAttendance = async () => {
   try {
